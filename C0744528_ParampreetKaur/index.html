@@ -2,11 +2,31 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>C0744528_ParampreetKaur</title>
+    <title>Event</title>
     <link href="css/default.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function trigger()
+        {
+
+            document.getElementByld("hover").addEventListener("mouseover", popup);
+            function popup()
+            {
+                alter("Welcome to my WebPage!!!");
+            }
+            }
+        
+    </script>
+    <style>
+        p
+        {
+            font-size:50px;
+            position:fixed;
+            left:550px;
+            top:300px;
+        }
+    </style>
 </head>
-<body>
-    <div>Content goes here!</div>
-    <script src="js/main.js"></script>
-</body>
+<body onload="trigger();">
+    <p id="hover">Welcome!!!</p>
+     </body>
 </html>
